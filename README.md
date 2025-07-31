@@ -1,1 +1,61 @@
-[![Live](https://img.shields.io/badge/LIVE-hamza.it.com-blue?style=flat-square)](https://hamza.it.com)[![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)](LICENSE)[![Version](https://img.shields.io/badge/Version-1.0.0-orange?style=flat-square)]()[![HTML](https://img.shields.io/badge/HTML-5-E34F26?style=flat-square&logo=html5)]()[![CSS](https://img.shields.io/badge/CSS-3-1572B6?style=flat-square&logo=css3)]()[![JS](https://img.shields.io/badge/JavaScript-ES6+-F7DF1E?style=flat-square&logo=javascript)]()[![Bootstrap](https://img.shields.io/badge/Bootstrap-5.3-7952B3?style=flat-square&logo=bootstrap)]()<div align="center"><img src="assets/images/screenshot1.png" width="30%"><img src="assets/images/screenshot2.png" width="30%"><img src="assets/images/screenshot3.png" width="30%"></div><pre>SMIT-Portfolio/├──assets/│├──css/││├──main.css││└──responsive.css│├──js/││├──app.js││└──animations.js│├──images/│└──fonts/├──index.html├──LICENSE└──README.md</pre><code>// analytics.jsgtag('config','G-XXXXXXXXXX');hotjar.initialize(0000000,6);</code><table><tr><th>Metric</th><th>Value</th></tr><tr><td>Lighthouse</td><td>98</td></tr><tr><td>PageSpeed</td><td>96</td></tr><tr><td>FCP</td><td>0.8s</td></tr></table><code>// Deploymentconst config={domain:"hamza.it.com",provider:"Namecheap",dns:"PremiumDNS",ssl:true,expiry:"2026-03-28"};</code><code># Local Setupgit clone https://github.com/HamzaAhmed04/SMIT-Portfolio.gitcd SMIT-Portfolio && open index.html</code><code>// Contact{email:"mrhamzaahmedshaikh@gmail.com",github:"HamzaAhmed04",website:"hamza.it.com"}</code><code>/* LICENSE */MIT License Copyright (c) 2024 Hamza Ahmed Shaikh</code>
+# SMIT Portfolio
+
+[![Website](https://img.shields.io/badge/Website-hamza.it.com-blue)](https://hamza.it.com)
+[![GitHub](https://img.shields.io/badge/GitHub-Repo-blue)](https://github.com/HamzaAhmed04/SMIT-Portfolio)
+[![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
+
+```html
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hamza Ahmed - SMIT Portfolio</title>
+    <link href="assets/css/main.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Portfolio Content -->
+</body>
+</html>
+css
+/* main.css */
+:root {
+    --primary: #2d3748;
+    --secondary: #4a5568;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+}
+javascript
+// app.js
+document.addEventListener('DOMContentLoaded', () => {
+    // Portfolio interactions
+});
+bash
+# Project Structure
+SMIT-Portfolio/
+├── assets/
+│   ├── css/
+│   ├── js/
+│   ├── images/
+│   └── fonts/
+├── index.html
+├── LICENSE
+└── README.md
+javascript
+// Deployment Info
+const deployment = {
+    domain: "hamza.it.com",
+    registrar: "Namecheap",
+    dns: "PremiumDNS",
+    ssl: true,
+    expiry: "2026-03-28"
+};
+bash
+# Run Locally
+git clone https://github.com/HamzaAhmed04/SMIT-Portfolio.git
+cd SMIT-Portfolio
+text
+MIT License
+Copyright (c) 2024 Hamza Ahmed Shaikh
